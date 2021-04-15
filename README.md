@@ -1,5 +1,5 @@
-# PRO-C-43 + 44
-project for class 43 + 44 self design game stage-2#
+# PRO-C-45
+project for class 45 self design game stage-2#
 
 # Game Design and Analysis
 
