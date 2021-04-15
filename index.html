@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--opening tag of html section-->
+<!--it is used as document for creatng website -->
+<html lang="en" dir="ltr">
+
+<!--opening tag of head section-->
+<!--head section is used for giving the document a title-->
+<head>
+    <meta charset="utf-8">
+    <!--opening tag of title section-->
+    <!--it is used for giving title-->
+    <title>Multiplayer Game</title>
+    <!--closing tag of title section-->
+
+    <!--opening tag of script section-->
+    <!--it is used for saving and exceuting the files in the program -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+  <!--closing tag of script section-->
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyBoUCx-J9Q0jCI-RRV7FGd3arWuZbP9hvM",
+      authDomain: "car-racing-c14ca.firebaseapp.com",
+      databaseURL: "https://car-racing-c14ca-default-rtdb.firebaseio.com/",
+      projectId: "car-racing-c14ca",
+      storageBucket: "car-racing-c14ca.appspot.com",
+      messagingSenderId: "835664456208",
+      appId: "1:835664456208:web:eb38090af72535885eb895"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+    <script src="js/Player.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<!--ending tag of head section-->
+
+<!--opening tag of body section-->
+<!--it is used as second element after head tag-->
+<body>
+    <script src="sketch.js"></script>
+</body>
+
+<!--clopsing tag of html section-->
+</html>
